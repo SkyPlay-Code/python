@@ -3,10 +3,8 @@
 AI Automation • Computer Vision • File Magic • Random Genius Tools  
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)  
 [![Stars](https://img.shields.io/github/stars/SkyPlay-Code/python?style=for-the-badge&color=yellow)](https://github.com/SkyPlay-Code/python/stargazers)  
 [![Last Commit](https://img.shields.io/github/last-commit/SkyPlay-Code/python?style=for-the-badge&color=brightgreen)](https://github.com/SkyPlay-Code/python/commits/main)  
-[![Issues](https://img.shields.io/github/issues/SkyPlay-Code/python?style=for-the-badge&color=red)](https://github.com/SkyPlay-Code/python/issues)
 
 > “I don’t always write Python scripts… but when I do, they end up here.” – You, probably
 
