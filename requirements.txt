@@ -1,18 +1,49 @@
-# requirements.txt (core + common; see individual scripts for extras)
-google-generativeai
-rich
-art
+# --- Core Image & Computer Vision ---
 opencv-python
 mediapipe
-pydub
-pillow
-pypandoc
-pymupdf
-fontforge  # For fonts (system install may be needed)
-ebooklib  # For ebooks (via Calibre CLI)
+ultralytics         # Required for T-800 YOLOv8 Targeting
 numpy
-pyautogui
-pyperclip
-rawpy
-pillow-heif
-ffmpeg-python
+
+# --- AI & Generative Models ---
+google-generativeai # Gemini Pro / Vision / Thinking
+scikit-learn        # Required for Combat Analyzer ML
+pandas              # Required for Combat Analyzer Data
+tensorflow          # (Optional) Required if running the .ipynb GANs/Neural Nets
+
+# --- Web Scraping & Video Acquisition ---
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+selenium-wire       # Required for Video Fetcher interception
+blinker==1.4        # Specific version required by selenium-wire
+yt-dlp              # Required for Media/Video downloads
+
+# --- Asynchronous Processing ---
+aiohttp             # Required for PDF Down-Merge
+aiofiles            # Required for PDF Down-Merge
+
+# --- File Conversion & Document Processing ---
+PyMuPDF             # (fitz) Required for PDF merging/conversion
+pypandoc            # Documents
+python-pptx         # PowerPoint
+ebooklib            # Ebooks
+fonttools           # Fonts (modern alternative to fontforge)
+
+# --- Audio & Video Processing ---
+moviepy             # Video editing/conversion
+pydub               # Audio processing
+ffmpeg-python       # Wrapper for FFmpeg
+python-ffmpeg
+rawpy               # RAW Image support
+pillow
+pillow-heif         # HEIC/HEIF Image support
+
+# --- Automation & UI ---
+pyautogui           # Mouse movement/Window automation
+pyperclip            # Clipboard access
+rich                # Terminal formatting
+art                 # ASCII Banners
+
+# --- Utilities ---
+python-dotenv       # For managing API keys

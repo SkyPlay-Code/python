@@ -3,7 +3,7 @@ import os
 
 # URL of a public domain video (e.g., from the Internet Archive or NASA)
 # This is "A Trip to the Moon" (1902), which is in the public domain.
-video_url = 'https://youtu.be/D8Qe_HEJjL4?si=T0sQDZ5SVGOtT6wB' 
+video_url = 'https://youtu.be/F4rKeQ8_NlQ?si=dxAmNU2dyZE-yb-1'
 
 # --- Example 1: Download the best quality video and audio combined ---
 
